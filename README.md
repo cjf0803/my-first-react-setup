@@ -19,21 +19,21 @@
 
 	运行成功效果如下：
 	
-	图片01
+	![maze](https://github.com/cjf0803/my-first-react-setup/blob/main/Imgs/01.png)
 
 	默认端口3000，项目启动后，自动跳转到默认的浏览器中，地址：http://localhost:3000
 
 
 二、结构说明：
 	（1）Web首页入口文件：index.html
-	图片02
+	![maze](https://github.com/cjf0803/my-first-react-setup/blob/main/Imgs/02.png)
 	（2）App 组件中DOM元素的(className)样式
-	图片03
+	![maze](https://github.com/cjf0803/my-first-react-setup/blob/main/Imgs/03.png)
 	（3）App.js（函数定义组件）
-	图片04
+	![maze](https://github.com/cjf0803/my-first-react-setup/blob/main/Imgs/04.png)
 	（4）index.js（react渲染组件，将组件的内容描述绑定到制定的DOM上）
  	有了App组件后，我们要怎么用它呢？
-	图片05
+	![maze](https://github.com/cjf0803/my-first-react-setup/blob/main/Imgs/05.png)
 	（5）serviceWorker.js（）
 	这个是什么鬼？ 有什么作用呢？
 
@@ -41,7 +41,7 @@
        		 service worker是在后台运行的一个线程，可以用来处理离线缓存、消息推送、后台自动		更新等任务。registerServiceWorker就是为react项目注册了一个service worker，用来做资源的缓		存，这样你下次访问时，就可以更快的获取资源。而且因为资源被缓存，所以即使在离线的情况下也可		以访问应用（此时使用的资源是之前缓存的资源）。注意，registerServiceWorker注册的service 		worker 只在生产环境中生效（process.env.NODE_ENV === ‘production’）
 
 	为什么要选择react呢？
-	图片06
+	![maze](https://github.com/cjf0803/my-first-react-setup/blob/main/Imgs/06.png)
 
 2.安装react脚手架失败的原因，及解决办法!
 	1.问题1：
@@ -54,7 +54,7 @@
 
 	2.问题2
 	在此步骤过程中，若出现如下提示，
-	图片07
+	![maze](https://github.com/cjf0803/my-first-react-setup/blob/main/Imgs/07.png)
 
 	解决办法：
 	（1）卸载全局安装包：
@@ -70,7 +70,7 @@
 
 	3.问题3
 	在继续执行全局安装命令后出现如下情况
-	图片08
+	![maze](https://github.com/cjf0803/my-first-react-setup/blob/main/Imgs/08.png)
 	
 	解决办法
 	更新，此为版本太低，更新一下就好了
@@ -80,7 +80,7 @@
 
 	如果你之前本地安装过webpack，受版本冲突限制，安装react脚手架后项目启动不了的问题。
 	启动时报错如下
-	图片09
+	![maze](https://github.com/cjf0803/my-first-react-setup/blob/main/Imgs/09.png)
 
 	造成问题原因：
 
