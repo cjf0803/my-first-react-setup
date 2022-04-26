@@ -19,16 +19,16 @@
 
 	运行成功效果如下：
 	
-	![maze](https://github.com/cjf0803/my-first-react-setup/blob/main/Imgs/01.png)
+	![maze](https://github.com/cjf0803/my-first-react-setup/raw/main/Imgs/01.png)
 
 	默认端口3000，项目启动后，自动跳转到默认的浏览器中，地址：http://localhost:3000
 
 
 二、结构说明：
 	（1）Web首页入口文件：index.html
-	![maze](https://github.com/cjf0803/my-first-react-setup/blob/main/Imgs/02.png)
+	![maze](https://github.com/cjf0803/my-first-react-setup/raw/main/Imgs/02.png)
 	（2）App 组件中DOM元素的(className)样式
-	![maze](https://github.com/cjf0803/my-first-react-setup/blob/main/Imgs/03.png)
+	![maze](https://github.com/cjf0803/my-first-react-setup/raw/main/Imgs/03.png)
 	（3）App.js（函数定义组件）
 	![maze](https://github.com/cjf0803/my-first-react-setup/blob/main/Imgs/04.png)
 	（4）index.js（react渲染组件，将组件的内容描述绑定到制定的DOM上）
